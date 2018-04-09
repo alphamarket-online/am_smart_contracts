@@ -1,0 +1,28 @@
+{
+  "name": "am_smart_contracts",
+  "version": "1.0.0",
+  "description": "Alph Market Smart Contracts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "truffle compile --all",
+    "migrate": "truffle migrate --reset --compile-all",
+    "test": "truffle test --compile-all"
+  },
+  "author": "Petr Malyarov",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "truffle-contract": "^3.0.4",
+    "truffle-debug-utils": "^1.0.5",
+    "zeppelin-solidity": "^1.7.0"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "dotenv": "^5.0.1",
+    "eth-gas-reporter": "^0.1.1",
+    "ethereumjs-wallet": "^0.6.0",
+    "solidity-coverage": "^0.4.15",
+    "truffle-wallet-provider": "0.0.5"
+  }
+}
